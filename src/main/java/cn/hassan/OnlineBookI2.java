@@ -20,7 +20,7 @@ public class OnlineBookI2 extends _onlineBookDisp implements Service {
 		Ice.Object object = this;
 		adapter.add(object, communicator.stringToIdentity(s));
 		adapter.activate();
-		logger.error(s + "started");
+		logger.error(s + "started...");
 	}
 
 	public void stop() {
